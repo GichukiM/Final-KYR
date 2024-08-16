@@ -9,7 +9,7 @@ function ImpactSection() {
         </h2>
         <div className="flex flex-wrap justify-between">
           <div className="w-full sm:w-1/5 flex flex-col items-center text-center p-4">
-            <img
+            <Image
               src="Meeting Room.png"
               alt="Impact Icon 1"
               className="w-16 h-16 mb-4"
@@ -23,7 +23,7 @@ function ImpactSection() {
           </div>
 
       <div className="w-full sm:w-1/5 flex flex-col items-center text-center p-4">
-        <img
+        <Image
           src="Gold Medal.png"
           alt="Impact Icon 2"
           className="w-16 h-16 mb-4"
@@ -37,7 +37,7 @@ function ImpactSection() {
       </div>
 
       <div className="w-full sm:w-1/5 flex flex-col items-center text-center p-4">
-        <img
+        <Image
           src="MultipleMessages.png"
           alt="Impact Icon 3"
           className="w-16 h-16 mb-4"
@@ -51,7 +51,7 @@ function ImpactSection() {
       </div>
 
       <div className="w-full sm:w-1/5 flex flex-col items-center text-center p-4">
-        <img
+        <Image
           src="Globe.png"
           alt="Impact Icon 4"
           className="w-16 h-16 mb-4"
@@ -65,7 +65,7 @@ function ImpactSection() {
       </div>
 
       <div className="w-full sm:w-1/5 flex flex-col items-center text-center p-4">
-        <img
+        <Image
           src="Download.png"
           alt="Impact Icon 5"
           className="w-16 h-16 mb-4"
