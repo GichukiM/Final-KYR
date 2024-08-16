@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 function Partners() {
   return (
@@ -9,28 +10,28 @@ function Partners() {
         </h2>
         <div className="flex flex-wrap justify-between">
           <div className="w-full sm:w-1/4 flex flex-col items-center text-center p-4">
-            <img
+            <Image
               src="moringa.png"
               alt="Partner 1"
               className="w-29 h-24 mb-4"
             />
           </div>
           <div className="w-full sm:w-1/4 flex flex-col items-center text-center p-4">
-            <img
+            <Image
               src="hill.png"
               alt="Partner 2"
               className="w-29 h-29 mb-4"
             />
           </div>
           <div className="w-full sm:w-1/4 flex flex-col items-center text-center p-4">
-            <img
+            <Image
               src="meru.png"
               alt="Partner 3"
               className="w-35 h-24 mb-6"
             />
           </div>
           <div className="w-full sm:w-1/4 flex flex-col items-center text-center p-4">
-            <img
+            <Image
               src="africa.png"
               alt="Partner 4"
               className="w-30 h-24 mb-4"
@@ -38,28 +39,28 @@ function Partners() {
           </div>
 
           <div className="w-full sm:w-1/4 flex flex-col items-center text-center p-4">
-            <img
+            <Image
               src="mwaura.png"
               alt="Partner 5"
               className="w-30 h-24 mb-4"
             />
           </div>
           <div className="w-full sm:w-1/4 flex flex-col items-center text-center p-4">
-            <img
+            <Image
               src="research.png"
               alt="Partner 6"
               className="w-30 h-24 mb-4"
             />
           </div>
           <div className="w-full sm:w-1/4 flex flex-col items-center text-center p-4">
-            <img
+            <Image
               src="talk.png"
               alt="Partner 7"
               className="w-24 h-24 mb-4"
             />
           </div>
           <div className="w-full sm:w-1/4 flex flex-col items-center text-center p-4">
-            <img
+            <Image
               src="tabler.png"
               alt="Partner 8"
               className="w-24 h-24 mb-4"
