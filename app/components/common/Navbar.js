@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai'
 import { MdGTranslate } from 'react-icons/md'
 import { HiOutlineDotsVertical } from "react-icons/hi";
+import Image from 'next/image';
 
 const Navbar = () => {
 
@@ -21,7 +22,7 @@ const Navbar = () => {
           <nav className='max-w-[1366px] mx-auto h-[100px] flex items-center lg:justify-center justify-between p-4'>
             <div className='lg:mr-3'>
               <Link href='/' onClick={handleSmallerScreensNavigation}>
-                  <img src='Logo.png' className='w-auto max-h-[100px]'></img>
+                  <Image src='Logo.png' className='w-auto max-h-[100px]'></img>
                   {/* <span className='uppercase font-extrabold text-3xl md:text-2xl xl:text-3xl '>avascript</span> */}
               </Link>
             </div>

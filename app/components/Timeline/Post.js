@@ -2,6 +2,7 @@ import React from 'react';
 import Comment from './Comment';
 import CommentForm from './CommentForm';
 import UpvoteDownvote from './UpvoteDownvote';
+import Image from 'next/image';
 
 const Post = ({ post, onVote, onToggleComments, showComments, onComment, comments = [] }) => {
   if (!post || !post.attributes) {
@@ -24,7 +25,7 @@ const Post = ({ post, onVote, onToggleComments, showComments, onComment, comment
     <div className="post mb-4 p-4 bg-white shadow-md rounded">
       <div className="post-header flex items-center">
         {/* Replace with dynamic user image and name */}
-        <img
+        <Image
           src={user?.avatar || '/path-to-default-user-image.png'}
           alt={user?.username || 'User'}
           className="user-image w-10 h-10 rounded-full"
@@ -44,7 +45,7 @@ const Post = ({ post, onVote, onToggleComments, showComments, onComment, comment
                 Your browser does not support the video tag.
               </video>
             ) : (
-              <img src={media.url} alt="Media" className="w-full mt-2" />
+              <Image src={media.url} alt="Media" className="w-full mt-2" />
             )}
           </div>
         )}

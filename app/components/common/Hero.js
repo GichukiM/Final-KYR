@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 function Page() {
   return (
@@ -21,7 +22,7 @@ function Page() {
             </p>
           </div>
           <div className="w-full md:w-[350px] lg:w-[450px] h-[525px] mt-4 md:mt-0 z-10 ml-auto">
-            <img
+            <Image
               src="HomeHero.png"
               alt="Hero Image"
               className="w-full h-full object-cover rounded-lg shadow-lg"

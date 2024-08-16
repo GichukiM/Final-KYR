@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaWhatsapp, FaSearch } from 'react-icons/fa';
+import Image from 'next/image';
 
 const RightSidebar = () => {
   return (
@@ -37,7 +38,7 @@ const RightSidebar = () => {
             <li key={index} className="group-item">
               <div className="group-img-wrapper">
                 <div className="group-img-background">
-                  <img src={group.imgSrc} alt={`${group.name} logo`} className="group-img" />
+                  <Image src={group.imgSrc} alt={`${group.name} logo`} className="group-img" />
                 </div>
               </div>
               <div className="group-content-container">
